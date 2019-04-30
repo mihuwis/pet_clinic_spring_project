@@ -37,6 +37,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -44,7 +45,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mihuwis/pet_clinic_spring_project.git</developerConnection>
-      <tag>pet-clinic-spring-project-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
