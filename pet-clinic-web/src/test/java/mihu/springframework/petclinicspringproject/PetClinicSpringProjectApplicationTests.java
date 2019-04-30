@@ -1,4 +1,4 @@
-package petclinicspringproject;
+package mihu.springframework.petclinicspringproject;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
