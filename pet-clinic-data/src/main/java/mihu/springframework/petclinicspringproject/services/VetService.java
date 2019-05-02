@@ -2,10 +2,6 @@ package mihu.springframework.petclinicspringproject.services;
 
 import mihu.springframework.petclinicspringproject.model.Vet;
 
-import java.util.Set;
+public interface VetService extends CrudService<Vet, Long> {
 
-public interface VetService {
-    Vet findById(Long id);
-    Vet save(Vet pet);
-    Set<Vet> findAll();
 }
