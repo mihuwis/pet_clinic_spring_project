@@ -1,5 +1,14 @@
 /home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/model/Vet.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/model/BaseEntity.java
 /home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/model/Person.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/OwnerService.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/PetService.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/map/VetServiceMap.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/map/OwnerServiceMap.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/VetService.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/map/AbstractMapService.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/map/PetServiceMap.java
+/home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/services/CrudService.java
 /home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/model/Pet.java
 /home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/model/PetType.java
 /home/mihu/codecool/spring_tutorials/pet_clinic_spring_project/pet_clinic_spring_project/pet-clinic-data/src/main/java/mihu/springframework/petclinicspringproject/model/Owner.java
