@@ -1,1 +1,5 @@
+mihu/springframework/petclinicspringproject/controllers/IndexController.class
 mihu/springframework/petclinicspringproject/PetClinicSpringProjectApplication.class
+mihu/springframework/petclinicspringproject/bootstrap/DataLoader.class
+mihu/springframework/petclinicspringproject/controllers/VetController.class
+mihu/springframework/petclinicspringproject/controllers/OwnersController.class
