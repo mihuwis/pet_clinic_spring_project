@@ -15,6 +15,9 @@ public class Owner extends Person {
     @Column(name = "telephone")
     private String telephone;
 
+    // Cascade type - if owner gets deleted - pets will be deleted as well
+    // Start adnotation from one side
+    //
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private Set<Pet> pets = new HashSet<>();
 
