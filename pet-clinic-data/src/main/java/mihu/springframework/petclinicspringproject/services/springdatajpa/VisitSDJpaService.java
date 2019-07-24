@@ -3,9 +3,14 @@ package mihu.springframework.petclinicspringproject.services.springdatajpa;
 import mihu.springframework.petclinicspringproject.model.Visit;
 import mihu.springframework.petclinicspringproject.repositories.VisitRepository;
 import mihu.springframework.petclinicspringproject.services.VisitService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
 import java.util.Set;
 
+@Service
+@Profile("springdatajpa")
 public class VisitSDJpaService implements VisitService {
 
     private final VisitRepository visitRepository;
@@ -16,21 +21,23 @@ public class VisitSDJpaService implements VisitService {
 
     @Override
     public Set<Visit> findAll() {
-        return null;
+        Set<Visit> visits = new HashSet<>();
+        visitRepository.findAll().forEach(visits::add);
+        return visits;
     }
 
     @Override
     public Visit findById(Long aLong) {
-        return null;
+        return visitRepository.findById(aLong).orElse(null);
     }
 
     @Override
     public Visit save(Visit object) {
-        return null;
+        return visitRepository.save(object);
     }
 
     @Override
     public void delete(Visit object) {
-
+        visitRepository.delete(object);
     }
 }
