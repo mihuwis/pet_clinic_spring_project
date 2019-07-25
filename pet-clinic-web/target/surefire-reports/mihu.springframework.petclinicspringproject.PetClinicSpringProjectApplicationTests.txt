@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: mihu.springframework.petclinicspringproject.PetClinicSpringProjectApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.408 s - in mihu.springframework.petclinicspringproject.PetClinicSpringProjectApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.025 s - in mihu.springframework.petclinicspringproject.PetClinicSpringProjectApplicationTests
