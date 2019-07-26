@@ -28,6 +28,15 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M3</version>
+
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -40,6 +49,14 @@
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
                 </configuration>
             </plugin>
         </plugins>
